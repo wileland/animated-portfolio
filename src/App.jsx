@@ -16,6 +16,7 @@ const App = () => {
     <section>Portfolio3</section>
     <section>Contact</section> */}
     <Test/>
+    <Test/>
   </div>;
 };
 
