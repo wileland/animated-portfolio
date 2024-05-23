@@ -3,10 +3,9 @@ import "./app.scss";
 import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
-  return (
-    <div>
+  return <div>
       <section id="Homepage">
-        <Navbar />
+        <Navbar/>
       </section>
       <section id="Services">Parallax</section>
       <section>Services</section>
@@ -15,8 +14,8 @@ const App = () => {
       <section>Portfolio2</section>
       <section>Portfolio3</section>
       <section id="Contact">Contact</section>
-    </div>
-  );
+  </div>;
+
 };
 
 export default App;
