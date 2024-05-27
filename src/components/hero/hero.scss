@@ -41,8 +41,9 @@
       }
     }
 
-    img {
+    .scrollImage {
       width: 50px;
+      height: auto; // This ensures the image maintains its aspect ratio
     }
   }
 
