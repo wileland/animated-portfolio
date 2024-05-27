@@ -29,8 +29,6 @@ const App = () => {
       <section id="Contact">
         <Contact />
       </section>
-      {/* <Test/>
-      <Test /> */}
     </div>
   );
 };
