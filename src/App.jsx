@@ -4,7 +4,8 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Services from "./components/services/Services";
-import Portfolio from "./components/portfolio/Portfolio"; // Ensure this import is correct
+import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
 
 const App = () => {
   return (
@@ -23,10 +24,11 @@ const App = () => {
         <Parallax type="portfolio" />
       </section>
       <section>
-        <Portfolio /> {/* Make sure Portfolio is properly used here */}
+        <Portfolio />
       </section>
-      
-      <section id="Contact">Contact</section>
+      <section id="Contact">
+        <Contact />
+      </section>
       {/* <Test/>
       <Test /> */}
     </div>
@@ -34,4 +36,3 @@ const App = () => {
 };
 
 export default App;
-
