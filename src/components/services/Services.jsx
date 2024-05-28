@@ -21,7 +21,6 @@ const variants = {
 
 const Services = () => {
   const ref = useRef();
-
   const isInView = useInView(ref, { margin: "-100px" });
 
   return (
@@ -29,10 +28,8 @@ const Services = () => {
       className="services"
       variants={variants}
       initial="initial"
-      // animate="animate"
-      // whileInView="animate"
       ref={ref}
-      animate={"animate"}
+      animate="animate"
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
@@ -60,12 +57,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Generative AI Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Leveraged cutting-edge Generative AI models to enhance customer service operations, increasing efficiency by 15% at USAA. Expert in natural language processing and computer vision applications.
           </p>
           <button>Go</button>
         </motion.div>
@@ -73,12 +67,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Full-Stack Web Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Proficient in React, Node.js, and the MERN stack. Developed scalable and robust web applications with a focus on user experience and performance optimization.
           </p>
           <button>Go</button>
         </motion.div>
@@ -86,12 +77,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Project Management</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Applied Agile methodologies and Scrum mastery to lead diverse teams. Ensured efficient project delivery and optimized outputs through strategic planning and effective communication.
           </p>
           <button>Go</button>
         </motion.div>
@@ -99,12 +87,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Independent AI Research</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Conducted independent research on advanced AI techniques. Contributed to the field with innovative solutions and published findings in reputed journals.
           </p>
           <button>Go</button>
         </motion.div>
