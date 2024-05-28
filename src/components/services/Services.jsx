@@ -59,7 +59,7 @@ const Services = () => {
         >
           <h2>Generative AI Development</h2>
           <p>
-            Leveraged cutting-edge Generative AI models to enhance customer service operations, increasing efficiency by 15% at USAA. Expert in natural language processing and computer vision applications.
+            Leveraged cutting-edge Generative AI models to enhance customer service operations, increasing efficiency as a freelance software engineer. Expert in natural language processing and computer vision applications.
           </p>
           <button>Go</button>
         </motion.div>
