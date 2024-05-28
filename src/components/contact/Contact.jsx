@@ -31,14 +31,14 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
+        "service_w3jmpyr", // Your Service ID
+        "template_v10u2oh", // Your Template ID
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "EjKcQulWVOFshx4FE" // Your Public Key
       )
       .then(
         (result) => {
-          setSuccess(true)
+          setSuccess(true);
         },
         (error) => {
           setError(true);
