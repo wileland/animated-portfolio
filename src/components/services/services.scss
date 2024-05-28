@@ -25,9 +25,6 @@
       font-size: 20px;
       color: gray;
       text-align: right;
-      @include mobile {
-        display: none;
-      }
     }
 
     hr {
@@ -93,10 +90,9 @@
         cursor: pointer;
 
         @include mobile {
-          font-size: 16px;
-          width: 150px;
-          height: 50px;
-
+          flex-direction: column;
+          text-align: center;
+          gap: 20px;
         }
       }
     }
@@ -109,9 +105,9 @@
     margin: auto;
 
     @include mobile {
-        flex-direction: column;
-        width: 100%;
-      }
+      flex-direction: column;
+      width: 100%;
+    }
 
     .box {
       padding: 50px;
@@ -127,11 +123,10 @@
         padding: 10px;
       }
 
-      p{
-          @include mobile {
-           display: none;
-          }
-
+      p {
+        @include mobile {
+          display: none;
+        }
       }
 
       button {
