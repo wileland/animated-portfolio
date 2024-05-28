@@ -44,16 +44,15 @@
   .formContainer {
     flex: 1;
     position: relative;
-    background-color: rebeccapurple;
-    width: 100%;
-
+    
     @include mobile {
       padding: 50px;
       width: 100%;
     }
 
+
     .phoneSvg {
-      stroke: yellow;
+      stroke: orange;
       position: absolute;
       margin: auto;
       z-index: -1;
@@ -64,7 +63,8 @@
       flex-direction: column;
       gap: 20px;
 
-      input, textarea {
+      input,
+      textarea {
         padding: 20px;
         background-color: transparent;
         border: 1px solid white;
@@ -79,10 +79,9 @@
       button {
         padding: 20px;
         border: none;
-        background-color: yellow;
+        background-color: orange;
         cursor: pointer;
         font-weight: 500;
-
         @include mobile {
           padding: 10px;
         }
